@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Women Safety Alert</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🛡️ Women Safety Alert</h1>
+      <p>One-tap emergency support with location, media, and safety tools.</p>
+    </header>
+
+    <main>
+      <button id="alertBtn">📍 Send Location & Stream</button>
+      <a href="tel:112" id="callBtn">📞 Emergency Call</a>
+      <button id="alarmBtn">🔊 Trigger Alarm</button>
+
+      <div id="output">
+        <p><strong>Location:</strong> <span id="location">Not shared</span></p>
+        <video id="video" autoplay muted playsinline></video>
+      </div>
+
+      <section class="tips">
+        <h2>🧠 Quick Safety Tips</h2>
+        <ul>
+          <li>Share your location with trusted contacts.</li>
+          <li>Keep emergency numbers on speed dial.</li>
+          <li>Use well-lit and busy routes.</li>
+          <li>Trust your instincts — leave if you feel unsafe.</li>
+          <li>Carry a whistle or safety alarm.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ for safety and empowerment.</p>
+    </footer>
+  </div>
+
+  <audio id="alarmSound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
